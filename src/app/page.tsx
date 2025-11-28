@@ -1,8 +1,10 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import ProductShowcase from "@/components/ProductShowcase";
+import RaspberryScrollytelling from "@/components/RaspberryScrollytelling";
 import TechSpecs from "@/components/TechSpecs";
 import WhatsInTheBox from "@/components/WhatsInTheBox";
+import PricingPlans from "@/components/PricingPlans";
 import ImpactSection from "@/components/ImpactSection";
 import CTASection from "@/components/CTASection";
 
@@ -12,6 +14,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ProductShowcase />
+      <RaspberryScrollytelling />
+      <PricingPlans />
       <TechSpecs />
       <WhatsInTheBox />
       <ImpactSection />
